@@ -185,9 +185,9 @@ class DiseasePrediction:
 
         # Return the preprocessed data as a DataFrame or a NumPy array
         return pd.DataFrame([one_hot_vector], columns=unique_words)
-      if _name_ == "_main_":
+    if _name_ == "_main_":
     # Model Currently Training
-    current_model_name = 'decision_tree'
+      current_model_name = 'decision_tree'
     # Instantiate the Class
     dp = DiseasePrediction(model_name=current_model_name)
     # Train the Model
